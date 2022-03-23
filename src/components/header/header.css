@@ -1,0 +1,9 @@
+.header {
+  grid-area: h;
+  background-color: blueviolet;
+  color: white;
+  display: flex;
+}
+.coca {
+  width: 120px;
+}

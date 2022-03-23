@@ -1,0 +1,14 @@
+.profile {
+  grid-area: p;
+  background-color: blueviolet;
+  color: white;
+}
+.ilon {
+  width: 200px;
+}
+a {
+  display: block;
+}
+.name {
+  vertical-align: top;
+}
