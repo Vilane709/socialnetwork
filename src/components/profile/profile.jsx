@@ -1,18 +1,19 @@
 import './profile.css';
+import Posts from './posts/posts.jsx'
 
 function Profile() {
   return (
     <div className="profile">
 	   	<div className="me">
-		     <img className="ilon" src={require("../img/ilon.jpg")} />
-		     <span className="name"> Elon Mask</span>
+		      <img className="ilon" src={require("../img/ilon.jpg")} />
+		      <div className="name">
+			      <span> Elon Mask</span>
+			      <p>\@-@/</p>
+			      <p>Москва</p>
+			 		</div>
+			</div>
+			<Posts />
 		</div>
-	    <div className="posts">
-		     <h1>My posts</h1>
-		     <input placeholder="enter the post"></input>
-		     <button>Add post</button>
-        </div>
-    </div>
   );
 }
 

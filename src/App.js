@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Header from './components/header/header.jsx';
 import Sidebar from './components/sidebar/sidebar.jsx';

@@ -2,6 +2,7 @@
   grid-area: p;
   background-color: blueviolet;
   color: white;
+  padding: 10px;
 }
 .ilon {
   width: 200px;
@@ -11,4 +12,9 @@ a {
 }
 .name {
   vertical-align: top;
+  text-align: center;
+}
+
+.me {
+  display: flex;
 }
